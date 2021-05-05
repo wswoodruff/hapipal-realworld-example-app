@@ -13,7 +13,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "node server",
+    "start": "nodemon server",
     "test": "lab -a @hapi/code -L",
     "lint": "eslint ."
   },
@@ -34,6 +34,7 @@
     "exiting": "6.x.x",
     "joi": "17.x.x",
     "knex": "0.21.x",
+    "nodemon": "^2.0.7",
     "objection": "2.x.x",
     "randomstring": "1.x.x",
     "secure-password": "4.x.x",
